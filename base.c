@@ -115,7 +115,7 @@ int print_hex(va_list list)
 	hex_rep = malloc(sizeof(char) * len + 1);
 	if (hex_rep == NULL)
 		return (-1);
-	for (len = 0; num > 0; lenn++)
+	for (len = 0; num > 0; len++)
 	{
 		rem_num = num % 16;
 		if (rem_num > 9)
